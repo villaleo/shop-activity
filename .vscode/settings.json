@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "css.styleSheets": [
+    "https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+    "css/**/*.css"
+  ],
+  "todohighlight.keywords": [
+    {
+      "backgroundColor": "yellow",
+      "color": "black",
+      "text": "TODO"
+    }
+  ],
+  "liveServer.settings.port": 5501
+}

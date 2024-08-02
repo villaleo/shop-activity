@@ -1,0 +1,61 @@
+:root {
+  --twitter-blue: rgb(81, 177, 249);
+  --gray: rgb(244, 248, 251);
+}
+
+/* Twitter logo */
+.tw-logo {
+  width: 50px;
+}
+
+/* Twitter button */
+.tw-btn {
+  background-color: var(--twitter-blue);
+  color: white;
+}
+
+/* Twitter login form */
+#tw-form-login {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Twitter login form input fields */
+#tw-form-login input {
+  background-color: var(--gray);
+}
+
+/* Shopping checkout button */
+#sh-btn-checkout img {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+
+/* Shopping checkout bag to rotate when hovering */
+#sh-btn-checkout:hover img {
+  animation: sh-checkout-bag-rotate 1s ease-in;
+}
+
+/* Shopping checkout bag rotation animation */
+@keyframes sh-checkout-bag-rotate {
+  70% {
+    transform: rotate(20deg);
+  }
+}
+
+/* Shopping card item */
+.sh-card-item {
+  height: 17rem;
+}
+
+/* Shopping card item images */
+.sh-card-item img {
+  height: 10rem;
+  object-fit: contain;
+}
+
+.sh-card-item:hover {
+  background-color: var(--gray);
+  cursor: pointer;
+}
